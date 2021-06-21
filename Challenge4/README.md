@@ -1,5 +1,7 @@
 # Container escape to access the host system
 
+(_Case này cần tìm hiểu thêm về `rbac`_)
+
 Đa số các công cụ như monitor, trace hay debug đều chạy với privileges và capabilities cao. Ở trong kịch bản này, pod được sử dụng với đặc quyền HostPath cho phép đạt được quyền truy cập vào máy host và có thể cấu hình ở Node level dẫn tới compromise cả cluster.
 
 # Solution
